@@ -1,0 +1,94 @@
+h1{
+    color: #FFB6C1;
+}
+h3{
+    color: #FFB6C1;
+}
+p{
+    color: black;
+}
+* {
+    margin: 0;
+}
+
+body {
+    background-image: url('картинка 2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    padding: 10px 5%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+
+header > * {
+    width: 450px;
+    margin-top: 80px;
+}
+
+.pustota {
+    width: 10%;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+    margin: 0 10px;
+}
+
+main {
+    padding: 20% 5%;
+}
+
+.banner {
+    background-color: transparent; 
+    text-align: center;
+    font-size: 30px;
+    color: black;
+}
+
+.post {
+    background-color: white;
+    padding: 10px 5%;
+    text-align: center;
+}
+
+.post > * {
+    display: inline-block;
+    width: 450px;
+    font-size: 30px;
+    vertical-align: middle;
+}
+
+.razryv {
+    height: 700px;
+}
+
+#final {
+    background-color: white;
+    padding: 10px 5%;
+    text-align: center;
+}
+
+#final > * {
+    display: inline-block;
+    width: 450px;
+    font-size: 30px;
+    vertical-align: middle;
+}
+
+footer {
+    background-color: black;
+    padding: 10px 0;
+    text-align: center;
+    color: white;
+}
